@@ -1,0 +1,104 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0; /* centering the left side*/
+  right: 0; /* centering the right side*/
+  z-index: 1000; /* Keeps it above other content */
+  position: fixed;
+  padding: 19px 0px; /*increases the spaces in the tag*/
+  background: var(--background-color); /* Ensure it's not transparent */
+  border-bottom: 1px solid #ebe6e6;
+}
+
+/* logo styles */
+.logo {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: var(--text-color);
+}
+
+/* nav-wrapper */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* icons styles */
+.menu-icons {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+/* mobile menu styles */
+.mobile-menu {
+  list-style: none;
+  padding: 30px 0px; /*adding padding on the top and bottom of the mobile menu*/
+}
+.mobile-menu a,
+.desktop-menu a {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 2.8px;
+  color: var(--text-color);
+}
+
+/* mobile menu*/
+.mobile-menu li {
+  margin-top: 30px; /* adding margin on top of the menu items*/
+}
+.mobile-menu li:nth-child(1) {
+  margin-top: 0px; /*removing margin on the first menu item*/
+}
+
+/* desktop styles */
+.desktop-menu {
+  display: none; /*hiding the desktop menu*/
+}
+
+/*media querys*/
+@media (min-width: 768px) {
+  /*mobile menu*/
+  .mobile-menu {
+    display: none; /*hiding the mobile menu on small screens*/
+  }
+
+  /*removing mobile menu icons*/
+  .remove-icons {
+    display: none;
+  }
+
+  /* desktop menu*/
+  .desktop-menu {
+    display: block;
+    gap: 40px;
+    display: flex;
+    list-style: none;
+  }
+  .desktop-menu a {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 2.4px;
+  }
+
+  /*adding line under the last menu item */
+  .desktop-menu li:nth-child(4) {
+    border-bottom: 1px solid var(--accent-color);
+  }
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    font-size: 22px;
+  }
+
+  .desktop-menu a {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
