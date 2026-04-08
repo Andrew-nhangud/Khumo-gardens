@@ -1,0 +1,112 @@
+/*sub heading */
+.hero-container h2 {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-bottom: 32px; /* adding space below this tag and the below one*/
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+/* main heading */
+.hero-container h1 {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 0.85;
+  margin-bottom: 32px; /* adding space below this tag and the below one*/
+  letter-spacing: -1.5px;
+  color: var(--text-color);
+}
+
+/*paragraph*/
+.hero-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 300;
+  max-width: 448px;
+  margin-bottom: 48px; /* adding space below this tag and the below one*/
+  color: var(--text-color);
+}
+
+/*container for the explore more line*/
+.clickable-message {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.clickable-message a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+/*arrow icon */
+.arrow-icon {
+  width: 15px; /*reducing it's width*/
+}
+
+/*hero image*/
+.hero-img {
+  width: 100vw; /*setting the width to fit the width of the browser*/
+  height: 50%;
+  position: relative;
+  left: 50%; /* centering the image relative to the mother container(hero container)*/
+  margin-left: -50vw;
+}
+
+@media (min-width: 768px) {
+  section {
+    display: flex;
+    margin-top: 0px;
+  }
+
+  /* hero container */
+  .hero-container {
+    padding-top: 107px; /*pushing down the content  */
+  }
+
+  /*paragraph*/
+  .hero-container p {
+    max-width: 350px; /* giving the paragraph a max width*/
+  }
+
+  /*hero image*/
+  .hero-img {
+    left: 55.6%; /* pushing the image to the left*/
+    width: 44.3vw; /* setting the width of the image*/
+    height: 61.6vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  section {
+    display: flex;
+    margin-top: 0px;
+  }
+
+  /*hero image*/
+  .hero-img {
+    left: 57.4%; /* pushing the image to the right*/
+    height: 41vw; /* setting the width of the image*/
+    width: 35.2vw;
+  }
+
+  .hero-container {
+    margin-left: 87px; /* pushing the content to the right*/
+    padding-top: 20px; /*pushing the content down */
+  }
+
+  .hero-container p {
+    max-width: 550px;
+    margin-bottom: 30px;
+  }
+  .hero-container h1 {
+    font-size: 176px;
+  }
+}
