@@ -1,0 +1,112 @@
+#about {
+  margin-top: 150px; /* pushing the content down*/
+  scroll-margin-top: 150px;
+}
+
+.section-subheader {
+  text-align: center;
+}
+.section-main-header {
+  text-align: center;
+}
+
+/*styles for the paragraphs*/
+.about-para {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-bottom: 40px;
+  color: var(--text-color);
+}
+
+/*selecting the last paragraph */
+.about-para:last-child {
+  line-height: 1.6;
+  font-weight: 300;
+  margin-top: 40px;
+}
+
+/*container for italic paragraph*/
+.italic-container {
+  display: flex;
+  gap: 20px;
+}
+
+/*vertical line in the italic container */
+.line {
+  width: 8px;
+  height: 175px;
+  background-color: var(--accent-color);
+}
+
+/*styles for the italic paragraph*/
+.italic-para {
+  font-size: 26px;
+  color: var(--text-color);
+}
+
+@media (min-width: 768px) {
+  #about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* removing the words from the start*/
+  .section-subheader {
+    text-align: start;
+  }
+  .section-main-header {
+    text-align: start;
+  }
+
+  /*vertical line in the italic container */
+  .line {
+    width: 3px;
+    height: 110px;
+    background-color: var(--accent-color);
+  }
+
+  /*container for italic paragraph*/
+  .italic-container {
+    gap: 30px;
+  }
+
+  /*styles for the italic paragraph*/
+  .italic-para {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #about {
+    max-width: 700px;
+    margin-top: 250px;
+    margin-left: auto; /*pushing the content to the right*/
+    margin-right: auto; /*pushing the content to the left*/
+    scroll-margin-top: 210px;
+  }
+
+  /* header styles*/
+  .section-main-header {
+    font-size: 70px;
+    font-weight: 300;
+  }
+
+  /*styles for the paragraphs*/
+  .about-para {
+    font-size: 19px;
+    font-weight: 400;
+  }
+
+  /*styles for the italic paragraph*/
+  .italic-para {
+    font-size: 33px;
+  }
+
+  /*vertical line in the italic container */
+  .line {
+    width: 3px;
+    height: 128px;
+    background-color: var(--accent-color);
+  }
+}
