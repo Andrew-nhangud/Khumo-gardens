@@ -9,7 +9,7 @@ export const Navbar = () => {
   // nav links for the navbar menu
   const navLinks = [
     { id: "about", label: "ABOUT" },
-    { id: "servics", label: "SERVICES" },
+    { id: "services", label: "SERVICES" },
     { id: "visit", label: "VISIT" },
     { id: "contact", label: "CONTACT" },
   ];
