@@ -39,7 +39,7 @@ export const Navbar = () => {
         <ul className="desktop-menu">
           {navLinks.map((link) => (
             <li key={link.id}>
-              <a href={`#{link.id}`} onClick={handleClick}>
+              <a href={`#${link.id}`} onClick={handleClick}>
                 {link.label}
               </a>
             </li>
