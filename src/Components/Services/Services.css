@@ -1,0 +1,97 @@
+#services {
+  margin-top: 250px; /* pushing the content down*/
+  scroll-margin-top: 150px;
+}
+
+.section-subheader {
+  text-align: start; /* placing the subheader to the start */
+}
+.section-main-header {
+  text-align: start; /* placing the header to the start */
+}
+
+/*line divedes*/
+.services-items:first-child {
+  border-top: 1px solid var(--thin-line); /*adding a line on the first element of the list*/
+}
+.line-diveder {
+  margin-top: 50px; /* pushing the content down*/
+  border-bottom: 1px solid var(--thin-line);
+}
+
+/*styles for the icons*/
+.services-items img {
+  width: 40px;
+  height: 40px;
+  margin: 35px 0px;
+}
+
+/*styles for the heading of the services*/
+.services-items h1 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 25px;
+  color: var(--text-color);
+}
+
+/*styles for the paragraph*/
+.services-items p {
+  font-size: 18px;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 300;
+  color: var(--text-color);
+}
+
+@media (min-width: 768px) {
+  /* container for the services*/
+  .services-items {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 3fr; /* displaying the content in a column*/
+    align-items: start;
+    margin-top: 50px;
+  }
+
+  .services-items:nth-child(1) {
+    padding-top: 50px; /*push the content down on the first item*/
+  }
+
+  /*line diveder*/
+  .line-diveder {
+    margin-top: 50px;
+    grid-column: 1 / 4; /* making the line to fill the whole container*/
+    border-bottom: 1px solid var(--thin-line);
+  }
+
+  /*styles for the para*/
+  .services-items p {
+    max-width: 350px; /* setting the max width for the paragraphs*/
+  }
+
+  /* styles for the image*/
+  .services-items img {
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* container for the services*/
+  .services-items {
+    margin-top: 50px; /* pushing the content (the services items) down*/
+    column-gap: 10px; /*adding gap between the content(items)*/
+    grid-template-columns: 0.5fr 2.5fr 2fr;
+  }
+
+  /*paragraph styles*/
+  .services-items p {
+    max-width: 500px; /* setting the max width for the paragraph*/
+  }
+
+  /*service item header*/
+  .services-items h1 {
+    font-size: 36px;
+  }
+}
