@@ -1,0 +1,43 @@
+#visit {
+  margin-top: 200px; /* adding space between the hero section and the visit section */
+  padding: 100px 0px; /* adding space above and below the visit section */
+  scroll-margin-top: 50px; /* adding space between the navbar and the visit section when the user clicks on the visit link in the navbar */
+}
+
+/*visit items*/
+.visit-items {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+/*description wrapper*/
+.description-wrapper h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 5px;
+  letter-spacing: 1.4px;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+/*paragraph style*/
+.description-wrapper p {
+  margin-top: 1px;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+/*icons for the visit items*/
+.visit-items img {
+  width: 32px;
+  height: 32px;
+}
+
+/*arrow icon */
+.arrow-icon {
+  width: 15px; /*reducing it's width*/
+}
