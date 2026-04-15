@@ -1,0 +1,91 @@
+#contact {
+  text-align: center;
+  background-color: #12291d;
+  scroll-margin-top: 80px;
+  padding: 180px 0px;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+  color: var(--thin-line);
+}
+
+.facebook {
+  color: #fff;
+}
+
+.contact-logo {
+  font-size: 66px;
+  line-height: 54px;
+  margin-bottom: 20px;
+}
+
+.contact-details {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.detail {
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.contact-header {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+@media (min-width: 768px) {
+  .contact-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .contact-logo {
+    font-size: 80px;
+  }
+
+  .contact-header {
+    font-size: 25px;
+  }
+
+  .detail {
+    font-weight: 300;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-logo {
+    font-size: 100px;
+  }
+
+  .contact-header {
+    margin-top: 70px;
+    font-size: 30px;
+  }
+
+  .detail {
+    font-weight: 300;
+    font-size: 17px;
+  }
+}
