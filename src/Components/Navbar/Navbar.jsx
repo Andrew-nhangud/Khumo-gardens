@@ -18,7 +18,7 @@ export const Navbar = () => {
   const handleClick = () => setIsOpen(false); // removes the menu if a nav link is pressed
 
   return (
-    <nav className="global-container">
+    <nav>
       {/* navbar container */}
       <div className="nav-container">
         <h1>
