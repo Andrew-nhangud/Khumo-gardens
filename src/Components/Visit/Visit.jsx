@@ -10,29 +10,31 @@ export const Visit = () => {
     {
       icon: clockIcon,
       header: "operating hours",
-      description: "10:00 AM - 7:30PM",
+      description: "10:00am - 7:30pm",
     },
     {
       icon: locationIcon,
-      header: "location",
-      description: "plot 60, Nooitegedacht eMalahleni, 1035",
+      header: " plot 60, Nooitegedacht 1035",
+      description: "eMalahleni",
     },
   ];
 
   return (
     <section id="visit">
-      <h2 className="section-subheader">Plan your visit</h2>
-      <h1 className="section-main-header">Experience the Magic</h1>
+      <h2 className="section-subheader subheader">Plan your visit</h2>
+      <h1 className="section-main-header main-header">Experience the Magic</h1>
       {/* visit items */}
-      {visitDetails.map((visit, index) => (
-        <div className="visit-items" key={index}>
-          <img src={visit.icon} alt="icon" />
-          <div className="description-wrapper">
-            <h2>{visit.header}</h2>
-            <p>{visit.description}</p>
+      <div className="visit-wrapper">
+        {visitDetails.map((visit, index) => (
+          <div className="visit-items" key={index}>
+            <img src={visit.icon} alt="icon" />
+            <div className="description-wrapper">
+              <p>{visit.description}</p>
+              <h2>{visit.header}</h2>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
       <p className="clickable-message">
         <a href="https://maps.app.goo.gl/zVY4ihGPg1VvP3iY8" target="blank">
           get directions
