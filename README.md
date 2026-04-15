@@ -100,8 +100,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For inquiries or bookings, please contact us:
 
 - **Location**: Emalahleni, South Africa
-- **Email**: info@khumogardens.co.za (placeholder - update with actual email)
-- **Phone**: +27 XX XXX XXXX (placeholder - update with actual phone)
+- **Phone**: +27 060 974 4364
+- **Facebook**: [Khumo Gardens](https://www.facebook.com/KhumoGardens)
 
 ---
 
