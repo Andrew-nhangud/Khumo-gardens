@@ -5,7 +5,7 @@ nav {
   right: 0; /* centering the right side*/
   z-index: 1000; /* Keeps it above other content */
   position: fixed;
-  padding: 19px 0px; /*increases the spaces in the tag*/
+  padding: 19px 20px; /*increases the spaces in the tag*/
   background: var(--background-color); /* Ensure it's not transparent */
   border-bottom: 1px solid var(--thin-line);
 }
