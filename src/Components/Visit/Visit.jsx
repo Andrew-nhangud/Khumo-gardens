@@ -37,7 +37,7 @@ export const Visit = () => {
       </div>
       <p className="clickable-message">
         <a href="https://maps.app.goo.gl/zVY4ihGPg1VvP3iY8" target="blank">
-          get directions
+          Get Directions
         </a>
         <img className="arrow-icon" src={ArrowIcon} alt="icon" />
       </p>
