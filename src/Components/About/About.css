@@ -1,6 +1,6 @@
 #about {
-  margin-top: 150px; /* pushing the content down*/
-  scroll-margin-top: 150px;
+  margin-top: 9.375rem; /* pushing the content down*/
+  scroll-margin-top: 9.375rem;
 }
 
 .section-subheader {
@@ -12,10 +12,10 @@
 
 /*styles for the paragraphs*/
 .about-para {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   line-height: 1.7;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
   color: var(--text-color);
 }
 
@@ -23,25 +23,25 @@
 .about-para:last-child {
   line-height: 1.6;
   font-weight: 300;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 /*container for italic paragraph*/
 .italic-container {
   display: flex;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 /*vertical line in the italic container */
 .line {
-  width: 8px;
-  height: 175px;
+  width: 0.5rem;
+  height: 10.9375rem;
   background-color: var(--accent-color);
 }
 
 /*styles for the italic paragraph*/
 .italic-para {
-  font-size: 26px;
+  font-size: 1.625rem;
   color: var(--text-color);
 }
 
@@ -61,52 +61,52 @@
 
   /*vertical line in the italic container */
   .line {
-    width: 3px;
-    height: 110px;
+    width: 0.1875rem;
+    height: 6.875rem;
     background-color: var(--accent-color);
   }
 
   /*container for italic paragraph*/
   .italic-container {
-    gap: 30px;
+    gap: 1.875rem;
   }
 
   /*styles for the italic paragraph*/
   .italic-para {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 }
 
 @media (min-width: 1024px) {
   #about {
-    max-width: 700px;
-    margin-top: 250px;
+    max-width: 43.75rem;
+    margin-top: 15.625rem;
     margin-left: auto; /*pushing the content to the right*/
     margin-right: auto; /*pushing the content to the left*/
-    scroll-margin-top: 210px;
+    scroll-margin-top: 13.125rem;
   }
 
   /* header styles*/
   .section-main-header {
-    font-size: 70px;
+    font-size: 4.375rem;
     font-weight: 300;
   }
 
   /*styles for the paragraphs*/
   .about-para {
-    font-size: 19px;
+    font-size: 1.1875rem;
     font-weight: 400;
   }
 
   /*styles for the italic paragraph*/
   .italic-para {
-    font-size: 33px;
+    font-size: 2.0625rem;
   }
 
   /*vertical line in the italic container */
   .line {
-    width: 3px;
-    height: 128px;
+    width: 0.1875rem;
+    height: 8rem;
     background-color: var(--accent-color);
   }
 }

@@ -17,7 +17,7 @@
 }
 
 body {
-  padding-top: 84px; /* adding space between the navbar and the content */
+  padding-top: 5.25rem; /* adding space between the navbar and the content */
   overflow-x: hidden; /* prevent horizontal scroll bar */
 }
 
@@ -28,10 +28,10 @@ a {
 
 /*styles for the header of each section*/
 .section-subheader {
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 500;
-  line-height: 16px;
-  margin-bottom: 32px; /* adding space below this tag and the below one*/
+  line-height: 1rem;
+  margin-bottom: 2rem; /* adding space below this tag and the below one*/
   letter-spacing: 2.4px;
   text-transform: uppercase;
   color: var(--accent-color);
@@ -39,25 +39,25 @@ a {
 
 /*styles for the subheaders of each sections*/
 .section-main-header {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 300;
   line-height: 1.25;
-  margin-bottom: 48px;
+  margin-bottom: 3rem;
   color: var(--text-color);
 }
 
 /*container for the explore more line*/
 .clickable-message {
-  gap: 10px;
+  gap: 0.625rem;
   display: flex;
   align-items: center;
   border-bottom: 1px solid var(--accent-color);
 }
 .clickable-message a {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 1.4px;
+  line-height: 1.25rem;
+  letter-spacing: 0.0875rem;
   text-transform: uppercase;
   color: var(--accent-color);
 }
