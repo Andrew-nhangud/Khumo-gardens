@@ -22,7 +22,7 @@ export const Navbar = () => {
       {/* navbar container */}
       <div className="nav-container">
         <h1>
-          <a className="logo" href="home">
+          <a className="logo" href="#home">
             Khumo Gardens
           </a>
         </h1>
